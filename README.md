@@ -1,4 +1,4 @@
-** Advent of Code - CFML Edition
+## Advent of Code - CFML Edition
 
 Run every day with commandbox.
 
