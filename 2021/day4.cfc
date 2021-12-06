@@ -1,12 +1,5 @@
 component {
 
-function getBoards(lines){
-	var boards = [];
-	// remove drawn numbers line
-	lines.deleteAt(1);
-	return boards;
-}
-
 function part1() {
 	var boards = [];
 	var lines = fileRead("./day4-input.txt").listToArray(chr(13) & chr(10));
