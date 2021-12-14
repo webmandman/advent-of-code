@@ -8,6 +8,7 @@ component {
 				count += 1;
 			}
 		}
+		print.line( input.len() );
 		print.line(count);
 	}
 
