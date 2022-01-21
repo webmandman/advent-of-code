@@ -15,4 +15,3 @@ I save the puzzle input in a text file and read the lines like so:
 ```
 var input = fileRead('./day1-input.txt').listToArray(chr(13) & chr(10));
 ```
-
