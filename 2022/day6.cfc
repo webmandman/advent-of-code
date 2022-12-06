@@ -11,9 +11,7 @@ component {
 
       var n = chars.slice(i,4);
       
-      if( listRemoveDuplicates(n.toList()) neq n.toList() ){
-        continue;
-      }else{
+      if( listRemoveDuplicates(n.toList()) eq n.toList() ){
         marker = i+3;
         break;
       }
@@ -33,9 +31,7 @@ component {
 
       var n = chars.slice(i,14);
       
-      if( listRemoveDuplicates(n.toList()) neq n.toList() ){
-        continue;
-      }else{
+      if( listRemoveDuplicates(n.toList()) eq n.toList() ){
         marker = i+13;
         break;
       }
