@@ -2,7 +2,7 @@
 component {
 
   variables.util = new Utils();
-  variables.directions = [ [0,-1],[1,0],[-1,0],[0,1] ];
+  variables.directions = [ [0,1],[1,0],[-1,0],[0,-1] ];
 
 	function part1() {
     var lines = fileRead('./day12-part1.txt').listToArray( chr(10), false, true);
@@ -11,10 +11,10 @@ component {
     // y,x coordinates
     variables.grid = [];
     for(row in lines){
-      variables.grid.push(row.listToArray(""))
+			var rowAry = row.listToArray("");
+      variables.grid.push(rowAry);
       var visitedrow = [];
-      var headrow = [];
-      for(col in row.listToArray("")){
+      for(col in rowAry){
         visitedrow.push(false);
       }
       variables.visited.push(visitedrow);
