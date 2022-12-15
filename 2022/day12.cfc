@@ -49,7 +49,6 @@ component {
         var xx = arguments.x + d[2];
         
         // make sure its within the grid
-        print.line(yy);
         if( yy >= 0 and yy < n and xx >= 0 and xx < m ){
           continue;
         }
